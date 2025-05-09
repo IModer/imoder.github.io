@@ -5,7 +5,6 @@ This is a test of Gumdrop, so far
 [Link to about.md](#!/about)
 
 ```haskell
-
 data Welcome a 
     = Pure a
     | Joy (Welcome a)
